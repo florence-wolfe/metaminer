@@ -1,7 +1,7 @@
 {
-  "name": "decky-plugin-template",
+  "name": "metaminer",
   "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "description": "MetaMiner is a plugin to help you scrape for game metadata from IGDB for non-steam games.",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
     "watch": "rollup -c -w",
@@ -14,14 +14,15 @@
   "keywords": [
     "decky",
     "plugin",
-    "plugin-template",
     "steam-deck",
-    "deck"
+    "deck",
+    "metadata",
+    "igdb"
   ],
-  "author": "Jonas Dellinger <jonas@dellinger.dev>",
+  "author": "Florence Wolfe <florencewolfe@pm.me>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
+    "url": "https://github.com/florence-wolfe/metaminer/issues"
   },
   "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
   "devDependencies": {

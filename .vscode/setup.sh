@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-PNPM_INSTALLED="$(which pnpm)"
+#! /bin/bash bash
+PNPM_INSTALLED="$(which  pnpm)"
 DOCKER_INSTALLED="$(which docker)"
 CLI_INSTALLED="$(pwd)/cli/decky"
 

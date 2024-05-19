@@ -1,10 +1,10 @@
 {
-  "name": "Example Plugin",
-  "author": "John Doe",
-  "flags": ["debug", "_root"],
+  "name": "MetaMiner",
+  "author": "Florence Wolfe",
+  "flags": ["debug"],
   "publish": {
-    "tags": ["template", "root"],
-    "description": "Decky example plugin.",
+    "tags": ["metadata", "igdb"],
+    "description": "MetaMiner is a plugin to help you scrape for game metadata from IGDB for non-steam games.",
     "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
   }
 }
